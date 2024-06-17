@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    font-size: 18px;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.header {
+    width: 70%;
+    height: 80px;
+    background-color: rgb(3, 0, 77);
+    display: flex;
+    margin: 30px 0;
+    padding: 15px;
+    border-radius: 3px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo {
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.cart {
+    width: 80px;
+    display: flex;
+    background-color: #fff;
+    justify-content: space-between;
+    border-radius: 3px;
+    align-items: center;
+    padding: 7px 10px;
+}
+
+.cart p {
+    width: 22px;
+    height: 22px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 22px;
+    color: rgb(3, 0, 77);
+}
+
+.fa-shopping-cart {
+    color: rgb(3, 0, 77);
+}
+
+.container {
+    display: flex;
+    width: 70%;
+    margin-bottom: 30px;
+}
+
+.linha-produtos {
+    display: grid;
+    width: 60%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+.produto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    border: 3px solid black;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(121, 121, 121);
+}
+
+.produto2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    border: 3px solid black;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #0ef; 
+}
+
+.produto3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    border: 3px solid black;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(153, 7, 237);
+}
+
+.produto4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    border: 3px solid black;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(223, 186, 5);
+}
+
+.imgProduto {
+    width: 100%;
+    height: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgProduto2 {
+    width: 100%;
+    height: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgProduto3 {
+    width: 100%;
+    height: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgProduto4 {
+    width: 100%;
+    height: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+.produtoMiniatura {
+    width: 90%;
+    max-height: 90%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.titulo {
+    display: flex;
+    width: 100%;
+    height: 110px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5px;
+    flex-direction: column;
+}
+
+h2{
+    font-size: 20px;
+    color: black;
+}
+
+.button{
+    background-color: blue;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    padding: 7px 25px;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: rgb(0, 76, 255);
+}
+
+.barra-lateral{
+    width: 40%;
+    border-radius: 5px;
+    background-color: #eee;
+    margin-left: 20px;
+    padding: 15px;
+    text-align: center;
+}
+
+.topoCarrinho{
+    background-color: rgb(3, 0, 77);
+    display: flex;
+    align-items: center;
+    height: 40px;
+    border-radius: 3px;
+    padding: 10px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.item-carrinho{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 3px;
+    margin: 10px 10px;
+    border-bottom: 1px solid #aaa;
+}
+
+.linha-da-imagem .img-carrinho{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    border: 1 solid  rgb(3, 0, 77);
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+}
+
+.rodape{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    padding: 10px 0;
+    border-top: 1px solid #333;
+}
+
+.fa-trash-o:hover{
+    cursor: pointer;
+    color: #333;
+}
